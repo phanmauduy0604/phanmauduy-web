@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d-khungall{
+
+width: 100%;
+}
+.d-top{
+
+width: 100%;
+}
+header {
+    display: flex;
+    padding: 12px 50px;
+    height: 70px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    z-index:9999;
+}
+
+header.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.header-top{
+
+    width: 100%;
+
+    display: flex;
+
+    background-color: #fff;
+
+    top: 0;
+
+    box-shadow: 1px 2px 0px #CCD;
+
+    right: 0;
+
+    justify-content: center;
+}
+.header-top .d-logo{
+    overflow: hidden;
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 54px;
+    justify-content: center;
+    display: flex;
+}
+.d-logo-img section{
+    position: relative;
+    height: 70px;
+    margin-top: 8px;
+}
+.header-top .d-logo .d-logo-img {
+    width: 100%;
+}
+.header-top .d-logo-img {
+    /* height: 70px; */
+    /* max-width: 100px; */
+    max-width: 70px;
+}
+.d-logo-img section a > img {
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1px 5px;
+}
+img.bottom {
+    background: white;
+}
+.d-container{
+
+}
+.d-delivered{
+
+}
+.d-logo{
+
+}
+.d-logo-img{
+
+}
+.d-right{display: flex;margin-top: 15px;}
+.d-login{width: 170px;}
+.login-text{
+    
+display: flex;
+}
+.d-logo-img section a > img.middle {
+    animation-name: fade2;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    background: white;
+}
+.d-logo-img section a > img.top {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    background: white;
+}
+img.top{
+    width: 100px;
+    height: 48px;
+}
+img.bottom{
+    width: 100px;
+    height: 48px;
+}
+img.middle{
+    width: 100px;
+    height: 48px;
+}
+a {
+    transition: all 0.2s linear;
+    color: inherit;
+}
+.vn-en{
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.vn:hover{
+    color:#0C713D ;
+
+}
+.en:hover{
+    color:#0C713D ;
+
+}
+.login-text {
+    margin-left: 5px;
+    display: flex;
+    margin-right: 10px;
+}
+.login-bold{
+    font-weight: bold;
+    color: black;
+}
+.header-top .d_cart {
+    float: right;
+    font-size: 12px;
+}
+.d_cart {
+    position: relative;
+}
+.header-top .d-cart .cart-toggle {
+    /* margin-top: 6px; */
+    border-radius: 5px;
+    position: relative;
+    padding: 2px 2px 2px 2px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #0C713D;
+    color: #0C713D;
+    background: #fff;
+    width: 100px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+.d-gioithieu{
+
+width: 100%;
+}
+.d-row-nd{
+
+width: 100%;
+
+margin-top: 17%;
+
+margin-right: 20px;
+
+display: flex;
+}
+.noidung-gt{
+
+width: 60%;
+
+margin-right: 50px;
+
+margin-left: 50px;
+}
+.row-dangky{
+
+width: 350px;
+}
+.btnemai{
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    border: 1px solid #0C713D;
+    color: #0C713D;
+    background: #fff;
+    width: 185px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btngui{
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    border: 1px solid #0C713D;
+    color: #0C713D;
+    background: #fff;
+    width: 55px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.row-thongbao{width: 30%;margin-left: 0px;margin-right: 0px;}
+
+.row-vn{
+    color: #0C713D;
+
+}
+.img-thongbao{
+
+width: 165px;
+}
+.row-icon{
+
+margin-left: 50px;
+}
+.gt-khung{
+    
+width: 100%;
+}

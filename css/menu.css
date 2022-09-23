@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.menudacap{
+	width: 100%;
+	margin-top: 5px;
+}
+/* section{
+	position: relative;
+	height: calc(100vh - 3rem);
+	width: 100%;
+	background: url('pic/YosemiteBW.jpg') no-repeat top center / cover;
+	overflow: hidden;
+} */
+a{
+    text-decoration: none;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgb(56, 165, 238, 0.5 );
+}
+.d-menu{
+	background-color: white;
+	position: absolute;
+	z-index: 999;
+	right: 0px;
+	left: 0px;
+	height: 50px;
+}
+.logo-container{
+	flex: 1;
+	display: flex;
+	align-items:  center;
+}
+.logo{
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 3rem;
+}
+.logo span{
+	font-weight: 300;
+}
+.nav-btn{
+	flex: 2;
+	height: 50px;
+	border-bottom: solid 1px beige;
+}
+.nav-links{
+	flex: 2;
+	display: contents;
+	justify-content: center;
+}
+.log-sign{
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.btn{
+	display: inline-block;
+	padding: .5rem 1.3rem;
+	font-size: .8rem;
+	border: 2px solid #fff;
+	border-radius: 2rem;
+	line-height: 1;
+	margin: 0 .2rem;
+	transition: .3s;
+	text-transform: uppercase;
+}
+.btn.su, .btn.li:hover{
+	background-color: #fff;
+	color: #0C713D;
+}
+.btn.li, .btn.su:hover{
+	background:  transparent;
+	color: #fff;
+}
+
+
+.d-nav-link{
+	position: relative;
+	height: 50px;
+	text-align: center;
+	justify-content: center;
+}
+.d-nav-link > a:hover{
+    color: #0C713D;
+}
+.nav-links > ul{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.d-nav-link > a{
+	line-height: 54px;
+	color: #000;
+	font-size: 16px;
+	transition: .5s;
+	font-weight: bold;
+	text-decoration: none;
+}
+.d-nav-link a > i{
+	margin-left: .2rem;
+
+}
+.d-nav-link:hover > a{
+	transform: scale(1.1);
+
+
+}
+.dropdown ul{
+	position: relative;
+}
+.dropdown{
+	position: absolute;
+	left: 0;
+	width: 8rem;
+	transform:  translateY(10px);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.dropdown-link:not(:nth-last-child(2)){
+	border-bottom: 1px solid #efefef;
+}
+
+.dropdown-link > a{
+	display: flex;
+	background-color: #fff;
+	color: #0C713D;
+	padding: .5rem 1rem;
+	font-size: .9rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dropdown-link:hover > a{
+	background-color: #0C713D;
+	color: #fff;
+}
+.arrow{
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	top: -5.5px;
+	left: 32px;
+	background-color: #fff;
+	transform: rotate(45deg);
+	cursor: pointer;
+	transition: .01s;
+	z-index: -1;
+
+}
+.dropdown-link:first-child:hover ~ .arrow{
+	background-color: #0C713D; 
+}
+.d-nav-link:hover > .dropdown,
+.dropdown-link:hover > .dropdown{
+	transform: translate(0,0);
+	opacity: 1;
+	pointer-events: auto;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-control-prev-icon {
+    background-image: url(images/chevron-back-outline.svg);
+    width: 100px;
+    height: 100px;
+}
+.carousel-control-next-icon {
+    background-image: url(images/chevron-forward-outline.svg);
+    width: 100px;
+    height: 100px;
+}

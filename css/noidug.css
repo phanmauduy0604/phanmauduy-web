@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.d-noidung-img{
+
+width: 100%;
+}
+.d-noidung{
+
+width: 100%;
+
+display: flex;
+
+padding: 30px;
+}
+.d-img-nd{
+
+margin-right: 80px;
+
+margin-left: 80px;
+}
+.baner-home{
+
+width: 530px;
+}
+.d-noidung-text{
+
+padding: 30px;
+}
+.tieude-text{
+
+font-size: 24px;
+
+color: #0C713D;
+
+font-weight: normal;
+
+margin-bottom: 35px;
+}
+.nd-text{
+    font-size: 15px;
+    line-height: 30px;
+}
+.btnxemthem{
+    position: relative;
+    padding: 2px 40px 2px 10px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #0C713D;
+    color: #0C713D;
+    background: #fff;
+    width: 157px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+.d-noidung-text-row2{
+
+width: 430px;
+
+margin-right: 35px;
+
+margin-left: 80px;
+}
+.tieude-text-row2{
+    
+font-size: 24px;
+
+color: #0C713D;
+
+font-weight: normal;
+
+margin-bottom: 35px;
+
+}
+.nd-text-row2{
+    font-size: 15px;
+    line-height: 30px;
+
+}
+.btnxemthem-row2{
+    position: relative;
+    padding: 2px 0px 2px 10px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #0C713D;
+    color: #0C713D;
+    background: #fff;
+    width: 322px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+.d-noidung-row2{
+
+width: 320px;
+
+height: 475px;
+background-image: url(../images/banner-url.png);
+}
+.d-img-nd-row2{
+
+width: 320px;
+
+height: 475px;
+}
+.baner-td{
+
+width: 320px;
+
+height: 475px;
+}
+.d-noidung2{
+
+width: 100%;
+}
+.d-khungnd2{
+    
+width: 100%;
+    
+display: flex;
+    
+padding: 30px;
+}
+.d-map{
+    
+width: 100%;
+}
+.row-hethong{
+
+background: #0C713D;
+
+left: 0px;
+
+margin-left: 0px;
+
+position: absolute;
+
+z-index: 1;
+
+width: 100%;
+
+height: 200px;
+
+}
